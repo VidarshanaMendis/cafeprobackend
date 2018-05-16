@@ -1,0 +1,27 @@
+{
+  "name": "meanauthapp",
+  "version": "1.0.0",
+  "description": "user authentication application",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app",
+    "serve": "nodemon server.js"
+  },
+  "dependencies": {
+    "@angular/cli": "^1.7.1",
+    "aylien_textapi": "^0.6.0",
+    "bcryptjs": "*",
+    "body-parser": "*",
+    "cors": "*",
+    "express": "*",
+    "jsonwebtoken": "*",
+    "mongoose": "*",
+    "nodemon": "^1.15.1",
+    "passport": "*",
+    "passport-jwt": "*",
+    "system-sleep": "^1.3.6"
+  },
+  "author": "vidarshana",
+  "license": "ISC"
+}
